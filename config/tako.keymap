@@ -101,6 +101,16 @@
             bindings = <&mo 5>;
             key-positions = <28 27>;
         };
+
+        del {
+            bindings = <&kp DELETE>;
+            key-positions = <10 11>;
+        };
+
+        caps {
+            bindings = <&kp CAPSLOCK>;
+            key-positions = <20 21>;
+        };
     };
 
     keymap {
