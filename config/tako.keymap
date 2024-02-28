@@ -103,6 +103,15 @@
         };
     };
 
+    macros {
+        key: key {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(C) &kp H &kp L &kp DOT &kp N8 &kp N8 &kp N0 &kp N6 &kp N0 &kp N2 &kp EXCL &kp AT &kp POUND &kp DLLR &kp ENTER>;
+            label = "KEY";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -117,25 +126,25 @@
 
         nav_layer {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5      &kp NUMBER_6   &kp N7         &kp N8    &kp N9    &kp N0
-&kp MINUS     &kp EQUAL     &kp F2        &kp F5        &kp HOME    &kp BSLH       &kp LBKT       &kp RBKT  &kp SEMI  &kp APOS
-&kp GRAVE     &kp K_MUTE    &kp C_VOL_DN  &kp C_VOL_UP  &kp END     &kp PAGE_DOWN  &kp UP         &kp LEFT  &kp DOWN  &kp RIGHT
-                                          &kp LSHFT     &trans      &kp SPACE      &kp BACKSPACE
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5          &kp NUMBER_6  &kp N7         &kp N8    &kp N9    &kp N0
+&kp MINUS     &kp EQUAL     &kp F2        &kp F5        &none           &kp BSLH      &kp LBKT       &kp RBKT  &kp SEMI  &kp APOS
+&kp GRAVE     &kp K_MUTE    &key          &kp C_VOL_DN  &kp C_VOL_UP    &none         &kp UP         &kp LEFT  &kp DOWN  &kp RIGHT
+                                          &kp LSHFT     &trans          &kp SPACE     &kp BACKSPACE
             >;
         };
 
         other_layer {
             bindings = <
-&kp LS(N1)     &kp LS(N2)     &kp LS(N3)  &kp LS(N4)  &kp LS(N5)    &kp LS(N6)    &kp LS(N7)    &kp LS(N8)     &kp LS(N9)    &kp LS(N0)
-&kp LS(MINUS)  &kp LS(EQUAL)  &trans      &trans      &trans        &kp LS(BSLH)  &kp LS(LBKT)  &kp LS(RBKT)   &kp LS(SEMI)  &kp LS(APOS)
-&kp LS(GRAVE)  &trans         &trans      &trans      &trans        &trans        &trans        &kp LS(COMMA)  &kp LS(DOT)   &kp LS(FSLH)
-                                          &trans      &trans        &kp SPACE     &trans
+&kp LS(N1)     &kp LS(N2)     &kp LS(N3)       &kp LS(N4)        &kp LS(N5)     &kp LS(N6)    &kp LS(N7)    &kp LS(N8)     &kp LS(N9)    &kp LS(N0)
+&kp LS(MINUS)  &kp LS(EQUAL)  &kp INSERT       &kp HOME          &kp PAGE_UP    &kp LS(BSLH)  &kp LS(LBKT)  &kp LS(RBKT)   &kp LS(SEMI)  &kp LS(APOS)
+&kp LS(GRAVE)  &trans         &kp PRINTSCREEN  &kp END           &kp PG_DN      &trans        &trans        &kp LS(COMMA)  &kp LS(DOT)   &kp LS(FSLH)
+                                               &kp K_CALCULATOR  &trans         &kp SPACE     &trans
             >;
         };
 
         layer_6 {
             bindings = <
-&kp ESC              &kp LC(LA(W))  &kp LC(LSHFT)  &kp LC(Y)  &kp LG(TAB)    &kp N7  &kp N8   &kp N9  &kp LS(EQUAL)  &kp MINUS
+&kp LC(J)            &kp LC(LA(W))  &kp LC(LSHFT)  &kp LC(Y)  &kp LG(TAB)    &kp N7  &kp N8   &kp N9  &kp LS(EQUAL)  &kp MINUS
 &mt LC(LA(A)) LC(A)  &kp LC(S)      &kp LG(D)      &kp LC(F)  &kp LG(L)      &kp N4  &kp N5   &kp N6  &kp LS(N8)     &kp FSLH
 &kp LC(Z)            &kp LC(X)      &kp LC(C)      &kp LC(V)  &kp LC(B)      &kp N1  &kp N2   &kp N3  &kp EQUAL      &kp LA(TAB)
                                                    &trans     &kp ENTER      &kp N0  &kp DOT
@@ -164,7 +173,7 @@
             bindings = <
 &kp LEFT  &kp RIGHT  &kp N7  &kp N8  &kp N9     &kp LS(EQUAL)  &kp LS(MINUS)  &kp LS(N8)  &kp FSLH  &kp EQUAL
 &kp DEL   &kp BSPC   &kp N4  &kp N5  &kp N6     &kp LS(N9)     &kp LS(N0)     &trans      &trans    &trans
-&trans    &kp ENTER  &kp N1  &kp N2  &kp N3     &trans         &trans         &trans      &trans    &trans
+&trans    &kp ENTER  &kp N1  &kp N2  &kp N3     &none          &trans         &trans      &trans    &trans
                              &kp N0  &kp DOT    &trans         &trans
             >;
         };
