@@ -1,0 +1,275 @@
+layers:
+  default:
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - A
+  - S
+  - D
+  - F
+  - {t: G, h: '5'}
+  - {t: H, h: '5'}
+  - J
+  - K
+  - L
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: Z, h: '7'}
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - {t: /, h: '$$mdi:apple-keyboard-shift$$', s: '?'}
+  - {t: '$$mdi:apple-keyboard-shift$$', h: '6'}
+  - {t: LEFT WIN, h: nav}
+  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:backspace$$', h: other}
+  nav:
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - {t: '5', s: '%'}
+  - '6'
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {t: '0', s: )}
+  - {t: '-', s: _}
+  - {t: '=', s: +}
+  - F2
+  - F5
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: \, s: '|'}
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
+  - {t: ;, s: ':'}
+  - .
+  - {t: '`', s: '~'}
+  - MUTE
+  - '&key'
+  - $$mdi:volume-low$$
+  - $$mdi:volume-high$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
+  - $$mdi:apple-keyboard-shift$$
+  - {type: held}
+  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:backspace$$', type: backspace}
+  other:
+  - LS(1)
+  - LS(2)
+  - LS(3)
+  - LS(4)
+  - LS(5)
+  - LS(6)
+  - LS(7)
+  - LS(8)
+  - LS(9)
+  - LS(0)
+  - LS(MINUS)
+  - LS(EQUAL)
+  - Ins
+  - HOME
+  - PgUp
+  - LS(BSLH)
+  - LS(LBKT)
+  - LS(RBKT)
+  - LS(SEMI)
+  - LS(APOS)
+  - LS(GRAVE)
+  - {t: '$$mdi:transfer$$', type: trans}
+  - PRINTSCREEN
+  - END
+  - PG DN
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - LS(COMMA)
+  - LS(DOT)
+  - LS(FSLH)
+  - CALCULATOR
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:keyboard-space$$
+  - {type: held}
+  '6':
+  - LC(J)
+  - LC(LA(W))
+  - LC(LSHFT)
+  - LC(Y)
+  - LG(TAB)
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - LS(EQUAL)
+  - {t: '-', s: _}
+  - {t: LC(A), h: LC(LA(A))}
+  - LC(S)
+  - {t: D, h: '$$mdi:apple-keyboard-command$$'}
+  - LC(F)
+  - LG(L)
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
+  - {t: '6', s: ^}
+  - LS(8)
+  - {t: /, s: '?'}
+  - LC(Z)
+  - LC(X)
+  - LC(C)
+  - LC(V)
+  - LC(B)
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
+  - {t: '=', s: +}
+  - LA(TAB)
+  - {type: held}
+  - $$mdi:apple-keyboard-control$$
+  - {t: '0', s: )}
+  - {t: ., s: '>'}
+  '5':
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:arrow-up-bold$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:arrow-up-bold$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
+  - {type: held}
+  - {type: held}
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  num:
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - $$mdi:progress-download$$
+  - {t: '$$mdi:backup-restore$$', type: bootloader}
+  - $$mdi:bluetooth-off$$
+  - BT CLR ALL
+  - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '$$mdi:arrow-up-bold$$', s: '$$mdi:bluetooth-connect$$'}
+  - {t: BT DISC, h: '0'}
+  - {t: BT DISC, h: '1'}
+  - F11
+  - F12
+  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '4', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '5', s: '$$mdi:bluetooth-connect$$'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
+  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  '7':
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-right-bold$$
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - LS(EQUAL)
+  - LS(MINUS)
+  - LS(8)
+  - {t: /, s: '?'}
+  - {t: '=', s: +}
+  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
+  - {t: '6', s: ^}
+  - LS(9)
+  - LS(0)
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '0', s: )}
+  - {t: ., s: '>'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+combos:
+- p: [0, 1]
+  k: $$mdi:keyboard-esc$$
+- p: [8, 9]
+  k: {t: '$$mdi:backspace$$', type: backspace}
+- p: [30, 31]
+  k: LEFT WIN
+- p: [10, 11]
+  k: $$mdi:backspace-reverse-outline$$
+- p: [20, 21]
+  k: $$mdi:apple-keyboard-caps$$
+- p: [28, 29]
+  k: $$mdi:keyboard-tab$$
+- p: [18, 19]
+  k: {t: '$$mdi:keyboard-return$$', type: enter}
+- p: [6, 7]
+  k: PgUp
+- p: [16, 17]
+  k: PgDn
+- p: [2, 3]
+  k: HOME
+- p: [12, 13]
+  k: END
+- p: [7, 8]
+  k: LS(9)
+- p: [17, 18]
+  k: LS(0)
+- p: [28, 27]
+  k: num
