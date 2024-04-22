@@ -159,7 +159,7 @@
 &trans  &trans    &kp UP    &trans     &kp TAB         &trans     &trans         &kp UP    &trans     &trans
 &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans          &trans     &kp LEFT       &kp DOWN  &kp RIGHT  &trans
 &trans  &trans    &trans    &trans     &trans          &trans     &trans         &trans    &trans     &trans
-                            &trans     &kp LEFT_GUI    &kp SPACE  &kp BACKSPACE
+                            &trans     &kp LEFT_ALT    &kp SPACE  &kp BACKSPACE
             >;
         };
 
