@@ -70,71 +70,71 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:backspace$$', type: backspace}
   other:
-  - LS(1)
-  - LS(2)
-  - LS(3)
-  - LS(4)
-  - LS(5)
-  - LS(6)
-  - LS(7)
-  - LS(8)
-  - LS(9)
-  - LS(0)
-  - LS(MINUS)
-  - LS(EQUAL)
+  - {t: Sft+ 1, s: Sft+ !}
+  - {t: Sft+ 2, s: Sft+ @}
+  - {t: Sft+ 3, s: 'Sft+ #'}
+  - {t: Sft+ 4, s: Sft+ $}
+  - {t: Sft+ 5, s: Sft+ %}
+  - {t: Sft+ 6, s: Sft+ ^}
+  - {t: Sft+ 7, s: Sft+ &}
+  - {t: Sft+ 8, s: Sft+ *}
+  - {t: Sft+ 9, s: Sft+ (}
+  - {t: Sft+ 0, s: Sft+ )}
+  - {t: Sft+ -, s: Sft+ _}
+  - {t: Sft+ =, s: Sft+ +}
   - Ins
   - HOME
   - PgUp
-  - LS(BSLH)
-  - LS(LBKT)
-  - LS(RBKT)
-  - LS(SEMI)
-  - LS(APOS)
-  - LS(GRAVE)
+  - {t: Sft+ \, s: Sft+ |}
+  - {t: 'Sft+ [', s: 'Sft+ {'}
+  - {t: 'Sft+ ]', s: 'Sft+ }'}
+  - {t: Sft+ ;, s: 'Sft+ :'}
+  - Sft+ .
+  - {t: Sft+ `, s: Sft+ ~}
   - {t: '$$mdi:transfer$$', type: trans}
   - PRINTSCREEN
   - END
   - PG DN
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - LS(COMMA)
-  - LS(DOT)
-  - LS(FSLH)
+  - {t: 'Sft+ ,', s: Sft+ <}
+  - {t: Sft+ ., s: Sft+ >}
+  - {t: Sft+ /, s: 'Sft+ ?'}
   - CALCULATOR
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-space$$
   - {type: held}
   '6':
-  - LC(J)
-  - LC(LA(W))
-  - LC(LSHFT)
-  - LC(Y)
-  - LG(TAB)
+  - Ctl+ J
+  - Ctl+Alt+ W
+  - Ctl+ $$mdi:apple-keyboard-shift$$
+  - Ctl+ Y
+  - Alt+ $$mdi:keyboard-tab$$
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
-  - LS(EQUAL)
+  - {t: Sft+ =, s: Sft+ +}
   - {t: '-', s: _}
-  - {t: LC(A), h: LC(LA(A))}
-  - LC(S)
-  - {t: D, h: '$$mdi:apple-keyboard-command$$'}
-  - LC(F)
-  - LG(L)
+  - {t: Ctl+ A, h: Ctl+Alt+ A}
+  - Ctl+ S
+  - Gui+ D
+  - Ctl+ F
+  - Gui+ L
   - {t: '4', s: $}
   - {t: '5', s: '%'}
   - {t: '6', s: ^}
-  - LS(8)
+  - {t: Sft+ 8, s: Sft+ *}
   - {t: /, s: '?'}
-  - LC(Z)
-  - LC(X)
-  - LC(C)
-  - LC(V)
-  - LC(B)
+  - Ctl+ Z
+  - Ctl+ X
+  - Ctl+ C
+  - Ctl+ V
+  - Ctl+ B
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
   - {t: '=', s: +}
-  - LA(TAB)
+  - Gui+ $$mdi:keyboard-tab$$
   - {type: held}
   - $$mdi:apple-keyboard-control$$
   - {t: '0', s: )}
@@ -172,8 +172,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:backspace$$', type: backspace}
   num:
   - F1
   - F2
@@ -215,9 +215,9 @@ layers:
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
-  - LS(EQUAL)
-  - LS(MINUS)
-  - LS(8)
+  - {t: Sft+ =, s: Sft+ +}
+  - {t: Sft+ -, s: Sft+ _}
+  - {t: Sft+ 8, s: Sft+ *}
   - {t: /, s: '?'}
   - {t: '=', s: +}
   - $$mdi:backspace-reverse-outline$$
@@ -225,8 +225,8 @@ layers:
   - {t: '4', s: $}
   - {t: '5', s: '%'}
   - {t: '6', s: ^}
-  - LS(9)
-  - LS(0)
+  - {t: Sft+ 9, s: Sft+ (}
+  - {t: Sft+ 0, s: Sft+ )}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -268,8 +268,8 @@ combos:
 - p: [12, 13]
   k: END
 - p: [7, 8]
-  k: LS(9)
+  k: Sft+ 9
 - p: [17, 18]
-  k: LS(0)
+  k: Sft+ 0
 - p: [28, 27]
   k: num
