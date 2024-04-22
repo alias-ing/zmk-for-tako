@@ -15,7 +15,10 @@
 
 // Using layer taps on thumbs, having quick tap as well helps w/ repeating space/backspace
 
-&lt { quick_tap_ms = <200>; };
+&lt {
+    quick_tap_ms = <200>;
+    flavor = "tap-preferred";
+};
 
 / {
     behaviors {
@@ -144,19 +147,19 @@
 
         layer_6 {
             bindings = <
-&kp LC(J)            &kp LC(LA(W))  &kp LC(LSHFT)  &kp LC(Y)  &kp LG(TAB)    &kp N7  &kp N8   &kp N9  &kp LS(EQUAL)  &kp MINUS
+&kp LC(J)            &kp LC(LA(W))  &kp LC(LSHFT)  &kp LC(Y)  &kp LA(TAB)    &kp N7  &kp N8   &kp N9  &kp LS(EQUAL)  &kp MINUS
 &mt LC(LA(A)) LC(A)  &kp LC(S)      &kp LG(D)      &kp LC(F)  &kp LG(L)      &kp N4  &kp N5   &kp N6  &kp LS(N8)     &kp FSLH
-&kp LC(Z)            &kp LC(X)      &kp LC(C)      &kp LC(V)  &kp LC(B)      &kp N1  &kp N2   &kp N3  &kp EQUAL      &kp LA(TAB)
+&kp LC(Z)            &kp LC(X)      &kp LC(C)      &kp LC(V)  &kp LC(B)      &kp N1  &kp N2   &kp N3  &kp EQUAL      &kp LG(TAB)
                                                    &trans     &kp LCTRL      &kp N0  &kp DOT
             >;
         };
 
         layer_5 {
             bindings = <
-&trans  &trans    &kp UP    &trans     &trans    &trans  &trans    &kp UP    &trans     &trans
-&trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans    &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans
-&trans  &trans    &trans    &trans     &trans    &trans  &trans    &trans    &trans     &trans
-                            &trans     &trans    &trans  &trans
+&trans  &trans    &kp UP    &trans     &trans    &trans     &trans         &kp UP    &trans     &trans
+&trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans    &trans     &kp LEFT       &kp DOWN  &kp RIGHT  &trans
+&trans  &trans    &trans    &trans     &trans    &trans     &trans         &trans    &trans     &trans
+                            &trans     &trans    &kp SPACE  &kp BACKSPACE
             >;
         };
 
