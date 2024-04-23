@@ -56,7 +56,7 @@ layers:
   - {t: ;, s: ':'}
   - .
   - {t: '`', s: '~'}
-  - MUTE
+  - $$mdi:volume-off$$
   - '&key'
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
