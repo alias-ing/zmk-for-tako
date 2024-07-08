@@ -990,7 +990,7 @@ path.combo {
 </g>
 <g transform="translate(200, 200)" class="key keypos-22">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 60%">PRINTSCREEN</tspan></text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 62%">PRINTSC…</tspan></text>
 </g>
 <g transform="translate(280, 220)" class="key keypos-23">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -1033,7 +1033,7 @@ path.combo {
 </g>
 <g transform="translate(309, 308) rotate(12.0)" class="key keypos-30">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 60%">CALCULATOR</tspan></text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 62%">CALCULA…</tspan></text>
 </g>
 <g transform="translate(397, 340) rotate(24.0)" class="key trans keypos-31">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
@@ -1128,7 +1128,7 @@ path.combo {
 <g transform="translate(200, 40)" class="key keypos-2">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.5em" style="font-size: 60%">Ctl+</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">$$mdi:apple-keyboard-shift$$</tspan>
+<tspan x="0" dy="-0.5em" style="font-size: 62%">Ctl+</tspan><tspan x="0" dy="1.0em" style="font-size: 62%">$$mdi:a…</tspan>
 </text>
 </g>
 <g transform="translate(280, 60)" class="key keypos-3">
@@ -1140,7 +1140,7 @@ path.combo {
 <g transform="translate(360, 70)" class="key keypos-4">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.5em" style="font-size: 60%">Alt+</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">$$mdi:keyboard-tab$$</tspan>
+<tspan x="0" dy="-0.5em" style="font-size: 62%">Alt+</tspan><tspan x="0" dy="1.0em" style="font-size: 62%">$$mdi:k…</tspan>
 </text>
 </g>
 <g transform="translate(600, 70)" class="key keypos-5">
@@ -1175,7 +1175,7 @@ path.combo {
 <text x="0" y="0" class="key tap">
 <tspan x="0" dy="-1.0em">Ctl+</tspan><tspan x="0" dy="1.0em">A</tspan>
 </text>
-<text x="0" y="34" class="key hold"><tspan style="font-size: 60%">Ctl+Alt+ A</tspan></text>
+<text x="0" y="34" class="key hold"><tspan style="font-size: 62%">Ctl+Alt…</tspan></text>
 </g>
 <g transform="translate(120, 140)" class="key keypos-11">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -1281,7 +1281,7 @@ path.combo {
 <g transform="translate(920, 240)" class="key keypos-29">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.5em" style="font-size: 60%">Gui+</tspan><tspan x="0" dy="1.0em" style="font-size: 60%">$$mdi:keyboard-tab$$</tspan>
+<tspan x="0" dy="-0.5em" style="font-size: 62%">Gui+</tspan><tspan x="0" dy="1.0em" style="font-size: 62%">$$mdi:k…</tspan>
 </text>
 </g>
 <g transform="translate(309, 308) rotate(12.0)" class="key held keypos-30">
@@ -1427,8 +1427,8 @@ path.combo {
 <g transform="translate(360, 150)" class="key held keypos-14">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key held"/>
 </g>
-<g transform="translate(600, 150)" class="key held keypos-15">
-<rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key held"/>
+<g transform="translate(600, 150)" class="key held alternate keypos-15">
+<rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key held alternate"/>
 </g>
 <g transform="translate(680, 140)" class="key keypos-16">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
