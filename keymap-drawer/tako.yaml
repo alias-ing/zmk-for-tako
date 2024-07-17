@@ -117,7 +117,7 @@ layers:
   - {t: '-', s: _}
   - {t: Ctl+ A, h: Ctl+Alt+ A}
   - Ctl+ S
-  - Gui+ D
+  - {t: D, h: '$$mdi:apple-keyboard-command$$'}
   - Ctl+ F
   - Gui+ L
   - {t: '4', s: $}
