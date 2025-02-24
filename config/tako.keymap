@@ -40,43 +40,78 @@
             key-positions = <0 1>;
         };
 
-        tab {
-            bindings = <&kp TAB>;
+        bk {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <8 9>;
+        };
+
+        win {
+            bindings = <&kp LEFT_WIN>;
+            key-positions = <30 31>;
+        };
+
+        del {
+            bindings = <&kp DELETE>;
             key-positions = <10 11>;
         };
 
-        ctrl {
-            bindings = <&kp LCTRL>;
-            key-positions = <11 12>;
-        };
-
-        alt {
-            bindings = <&kp LEFT_ALT>;
-            key-positions = <12 13>;
-        };
-
-        btqingchu {
-            bindings = <&bt BT_CLR>;
-            key-positions = <1 0 8 9>;
-        };
-
-        shift {
-            bindings = <&kp LEFT_SHIFT>;
+        caps {
+            bindings = <&kp CAPS>;
             key-positions = <20 21>;
         };
 
-        rshift {
-            bindings = <&kp RSHIFT>;
+        tab {
+            bindings = <&kp TAB>;
             key-positions = <28 29>;
+        };
+
+        enter {
+            bindings = <&kp ENTER>;
+            key-positions = <18 19>;
+        };
+
+        pu {
+            bindings = <&kp PAGE_UP>;
+            key-positions = <6 7>;
+        };
+
+        pd {
+            bindings = <&kp PAGE_DOWN>;
+            key-positions = <16 17>;
+        };
+
+        home {
+            bindings = <&kp HOME>;
+            key-positions = <2 3>;
+        };
+
+        end {
+            bindings = <&kp END>;
+            key-positions = <12 13>;
+        };
+
+        zuokuohao {
+            bindings = <&kp LS(NUMBER_9)>;
+            key-positions = <7 8>;
+        };
+
+        youkuohao {
+            bindings = <&kp LS(N0)>;
+            key-positions = <17 18>;
+        };
+
+        diwuceng {
+            bindings = <&mo 5>;
+            key-positions = <28 27>;
         };
     };
 
     macros {
-        mima: mima {
+        key: key {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp N1 &kp N5 &kp N0 &kp N5 &kp N0 &kp N7>;
-            label = "MIMA";
+            bindings = <&kp LS(C) &kp H &kp L &kp DOT &kp N8 &kp N8 &kp N0 &kp N6 &kp N0 &kp N2 &kp LS(N7) &kp LS(N8) &kp LS(N9) &kp ENTER>;
+            label = "KEY";
         };
     };
 
@@ -85,28 +120,64 @@
 
         default_layer {
             bindings = <
-&kp Q  &kp W  &kp E  &kp R        &kp T           &kp Y        &kp U          &kp I      &kp O    &kp P
-&kp A  &kp S  &kp D  &kp F        &kp G           &kp H        &kp J          &kp K      &kp L    &kp ENTER
-&kp Z  &kp X  &kp C  &kp V        &kp B           &kp N        &kp M          &kp COMMA  &kp DOT  &kp SLASH
-                     &lt 1 SPACE  &kp LEFT_GUI    &lt 2 SPACE  &kp BACKSPACE
+&kp Q    &kp W  &kp E  &kp R        &kp T             &kp Y      &kp U            &kp I      &kp O    &kp P
+&kp A    &kp S  &kp D  &kp F        &lt 4 G           &lt 4 H    &kp J            &kp K      &kp L    &kp ENTER
+&lt 6 Z  &kp X  &kp C  &kp V        &kp B             &kp N      &kp M            &kp COMMA  &kp DOT  &mt LSHFT SLASH
+                       &lt 3 LSHFT  &lt 1 LEFT_WIN    &kp SPACE  &lt 2 BACKSPACE
             >;
         };
 
         nav_layer {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4      &kp N5           &kp NUMBER_6  &kp N7  &kp N8     &kp N9        &kp N0
-&kp CAPS      &trans        &trans        &kp C_AC_REFRESH  &kp C_AL_CALC    &trans        &trans  &kp MINUS  &kp EQUAL     &trans
-&trans        &trans        &trans        &trans            &trans           &trans        &trans  &trans     &kp C_VOL_DN  &kp C_VOL_UP
-                                          &trans            &trans           &trans        &trans
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5          &kp NUMBER_6  &kp N7         &kp N8    &kp N9    &kp N0
+&kp MINUS     &kp EQUAL     &kp F2        &kp F5        &none           &kp BSLH      &kp LBKT       &kp RBKT  &kp SEMI  &kp APOS
+&kp GRAVE     &kp C_MUTE    &key          &kp C_VOL_DN  &kp C_VOL_UP    &none         &kp UP         &kp LEFT  &kp DOWN  &kp RIGHT
+                                          &kp LSHFT     &trans          &kp SPACE     &kp BACKSPACE
             >;
         };
 
-        layer_2 {
+        other_layer {
             bindings = <
-&kp LC(LG(Q))  &trans  &trans  &trans  &trans    &mima         &trans        &trans  &trans  &trans
-&trans         &trans  &trans  &trans  &trans    &trans        &trans        &trans  &trans  &trans
-&trans         &trans  &trans  &trans  &trans    &bt BT_SEL 0  &bt BT_SEL 1  &trans  &trans  &trans
-                               &trans  &trans    &trans        &trans
+&kp LS(N1)     &kp LS(N2)     &kp LS(N3)       &kp LS(N4)        &kp LS(N5)     &kp LS(N6)    &kp LS(N7)    &kp LS(N8)     &kp LS(N9)    &kp LS(N0)
+&kp LS(MINUS)  &kp LS(EQUAL)  &kp INSERT       &kp HOME          &kp PAGE_UP    &kp LS(BSLH)  &kp LS(LBKT)  &kp LS(RBKT)   &kp LS(SEMI)  &kp LS(APOS)
+&kp LS(GRAVE)  &trans         &kp PRINTSCREEN  &kp END           &kp PG_DN      &trans        &trans        &kp LS(COMMA)  &kp LS(DOT)   &kp LS(FSLH)
+                                               &kp K_CALCULATOR  &trans         &kp SPACE     &trans
+            >;
+        };
+
+        layer_6 {
+            bindings = <
+&kp LC(J)            &kp LC(LA(W))  &kp LC(LSHFT)  &kp LC(Y)  &kp LA(TAB)    &kp N7  &kp N8   &kp N9  &kp LS(EQUAL)  &kp MINUS
+&mt LC(LA(A)) LC(A)  &kp LC(S)      &kp LG(D)      &kp LC(F)  &kp LG(L)      &kp N4  &kp N5   &kp N6  &kp LS(N8)     &kp FSLH
+&kp LC(Z)            &kp LC(X)      &kp LC(C)      &kp LC(V)  &kp LC(B)      &kp N1  &kp N2   &kp N3  &kp EQUAL      &kp LG(TAB)
+                                                   &trans     &kp LCTRL      &kp N0  &kp DOT
+            >;
+        };
+
+        layer_5 {
+            bindings = <
+&trans  &trans    &kp UP    &trans     &kp TAB         &trans     &trans         &kp UP    &trans     &trans
+&trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans          &trans     &kp LEFT       &kp DOWN  &kp RIGHT  &trans
+&trans  &trans    &trans    &trans     &trans          &trans     &trans         &trans    &trans     &trans
+                            &trans     &kp LEFT_ALT    &kp SPACE  &kp BACKSPACE
+            >;
+        };
+
+        num_layer {
+            bindings = <
+&kp F1        &kp F2        &kp F3        &kp F4          &kp F5          &kp F6         &kp F7         &kp F8         &kp F9   &kp F10
+&bootloader   &sys_reset    &bt BT_CLR    &bt BT_CLR_ALL  &bt BT_NXT      &bt BT_PRV     &bt BT_DISC 0  &bt BT_DISC 1  &kp F11  &kp F12
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &bt BT_SEL 4    &bt BT_DISC 2  &trans         &trans         &trans   &trans
+                                          &trans          &trans          &trans         &trans
+            >;
+        };
+
+        layer_7 {
+            bindings = <
+&kp LEFT  &kp RIGHT  &kp N7  &kp N8  &kp N9     &kp LS(EQUAL)  &kp LS(MINUS)  &kp LS(N8)  &kp FSLH  &kp EQUAL
+&kp DEL   &kp BSPC   &kp N4  &kp N5  &kp N6     &kp LS(N9)     &kp LS(N0)     &trans      &trans    &trans
+&trans    &kp ENTER  &kp N1  &kp N2  &kp N3     &none          &trans         &trans      &trans    &trans
+                             &kp N0  &kp DOT    &trans         &trans
             >;
         };
     };
