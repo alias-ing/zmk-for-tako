@@ -1,38 +1,38 @@
 layout: {zmk_keyboard: tako}
 layers:
   default:
+  - $$mdi:keyboard-tab$$
   - Q
   - W
   - E
   - R
-  - T
   - Y
   - U
   - I
   - O
   - P
+  - $$mdi:apple-keyboard-shift$$
   - A
   - S
   - D
   - F
-  - {t: G, h: '5'}
   - {t: H, h: '5'}
   - J
   - K
   - L
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: Z, h: '7'}
+  - $$mdi:apple-keyboard-control$$
+  - Z
   - X
   - C
   - V
-  - B
   - N
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, h: '$$mdi:apple-keyboard-shift$$', s: '?'}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: '6'}
-  - {t: LEFT WIN, h: nav}
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:backspace$$', h: other}
   nav:
@@ -67,7 +67,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - $$mdi:apple-keyboard-shift$$
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:backspace$$', type: backspace}
   other:
@@ -136,7 +136,7 @@ layers:
   - {t: '3', s: '#'}
   - {t: '=', s: +}
   - Gui+$$mdi:keyboard-tab$$
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-control$$
   - {t: '0', s: )}
   - {t: ., s: '>'}
@@ -155,8 +155,8 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {type: held alternate}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
@@ -231,7 +231,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
