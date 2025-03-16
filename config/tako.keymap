@@ -45,21 +45,6 @@
             key-positions = <8 9>;
         };
 
-        win {
-            bindings = <&kp LEFT_WIN>;
-            key-positions = <30 31>;
-        };
-
-        del {
-            bindings = <&kp DELETE>;
-            key-positions = <10 11>;
-        };
-
-        caps {
-            bindings = <&kp CAPS>;
-            key-positions = <20 21>;
-        };
-
         tab {
             bindings = <&kp TAB>;
             key-positions = <28 29>;
@@ -78,16 +63,6 @@
         pd {
             bindings = <&kp PAGE_DOWN>;
             key-positions = <16 17>;
-        };
-
-        home {
-            bindings = <&kp HOME>;
-            key-positions = <2 3>;
-        };
-
-        end {
-            bindings = <&kp END>;
-            key-positions = <12 13>;
         };
 
         zuokuohao {
