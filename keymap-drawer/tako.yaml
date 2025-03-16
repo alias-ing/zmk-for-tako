@@ -250,12 +250,6 @@ combos:
   k: $$mdi:keyboard-esc$$
 - p: [8, 9]
   k: {t: '$$mdi:backspace$$', type: backspace}
-- p: [30, 31]
-  k: LEFT WIN
-- p: [10, 11]
-  k: $$mdi:backspace-reverse-outline$$
-- p: [20, 21]
-  k: $$mdi:apple-keyboard-caps$$
 - p: [28, 29]
   k: $$mdi:keyboard-tab$$
 - p: [18, 19]
@@ -264,10 +258,6 @@ combos:
   k: PgUp
 - p: [16, 17]
   k: PgDn
-- p: [2, 3]
-  k: HOME
-- p: [12, 13]
-  k: END
 - p: [7, 8]
   k: Sft+9
 - p: [17, 18]
