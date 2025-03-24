@@ -6,7 +6,7 @@ layers:
   - W
   - E
   - R
-  - Y
+  - T
   - U
   - I
   - O
@@ -16,25 +16,25 @@ layers:
   - S
   - D
   - F
-  - {t: H, h: '5'}
+  - G
+  - H
   - J
   - K
   - L
-  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-control$$
   - Z
   - X
   - C
   - V
+  - B
   - N
   - M
   - {t: ',', s: <}
-  - {t: ., s: '>'}
-  - {t: /, h: '$$mdi:apple-keyboard-shift$$', s: '?'}
+  - {t: ., h: '$$mdi:apple-keyboard-shift$$', s: '>'}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:backspace$$', h: other}
+  - {t: '$$mdi:backspace$$', type: backspace}
   nav:
   - '1'
   - '2'
@@ -104,7 +104,7 @@ layers:
   - CALCULATOR
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-space$$
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   '6':
   - Ctl+J
   - Ctl+Alt+W
@@ -156,7 +156,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
