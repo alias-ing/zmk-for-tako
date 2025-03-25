@@ -40,44 +40,9 @@
             key-positions = <0 1>;
         };
 
-        bk {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <8 9>;
-        };
-
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <28 29>;
-        };
-
-        enter {
-            bindings = <&kp ENTER>;
-            key-positions = <18 19>;
-        };
-
-        pu {
-            bindings = <&kp PAGE_UP>;
-            key-positions = <6 7>;
-        };
-
-        pd {
-            bindings = <&kp PAGE_DOWN>;
-            key-positions = <16 17>;
-        };
-
-        zuokuohao {
-            bindings = <&kp LS(NUMBER_9)>;
-            key-positions = <7 8>;
-        };
-
-        youkuohao {
-            bindings = <&kp LS(N0)>;
-            key-positions = <17 18>;
-        };
-
-        diwuceng {
-            bindings = <&mo 5>;
-            key-positions = <28 27>;
+        Layer {
+            bindings = <&tog 1>;
+            key-positions = <9 8>;
         };
     };
 
