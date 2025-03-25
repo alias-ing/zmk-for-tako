@@ -203,8 +203,8 @@ layers:
   - {h: '5', s: '$$mdi:bluetooth-connect$$'}
   - {t: BT DISC, h: '2'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -248,19 +248,5 @@ layers:
 combos:
 - p: [0, 1]
   k: $$mdi:keyboard-esc$$
-- p: [8, 9]
-  k: {t: '$$mdi:backspace$$', type: backspace}
-- p: [28, 29]
-  k: $$mdi:keyboard-tab$$
-- p: [18, 19]
-  k: {t: '$$mdi:keyboard-return$$', type: enter}
-- p: [6, 7]
-  k: PgUp
-- p: [16, 17]
-  k: PgDn
-- p: [7, 8]
-  k: Sft+9
-- p: [17, 18]
-  k: Sft+0
-- p: [28, 27]
-  k: num
+- p: [9, 8]
+  k: {t: nav, h: toggle}

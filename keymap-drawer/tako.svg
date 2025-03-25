@@ -561,39 +561,12 @@ path.combo {
 <rect rx="4" ry="4" x="62" y="52" width="36" height="36" class="combo"/>
 <use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="67" y="57" height="26" width="26.0" class="combo tap glyph mdi:keyboard-esc"/>
 </g>
-<g class="combo backspace combopos-1">
-<rect rx="4" ry="4" x="862" y="52" width="36" height="36" class="combo backspace"/>
-<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="867" y="57" height="26" width="26.0" class="combo backspace tap glyph mdi:backspace"/>
+<g class="combo combopos-1">
+<rect rx="4" ry="4" x="862" y="52" width="36" height="36" class="combo"/>
+<a href="#nav">
+<text x="880" y="70" class="combo tap layer-activator">nav</text>
+</a><text x="880" y="84" class="combo hold"><tspan style="font-size: 83%">toggle</tspan></text>
 </g>
-<g class="combo combopos-2">
-<rect rx="4" ry="4" x="862" y="212" width="36" height="36" class="combo"/>
-<use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="867" y="217" height="26" width="26.0" class="combo tap glyph mdi:keyboard-tab"/>
-</g>
-<g class="combo enter combopos-3">
-<rect rx="4" ry="4" x="862" y="132" width="36" height="36" class="combo enter"/>
-<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="867" y="137" height="26" width="26.0" class="combo enter tap glyph mdi:keyboard-return"/>
-</g>
-<g class="combo combopos-4">
-<rect rx="4" ry="4" x="702" y="32" width="36" height="36" class="combo"/>
-<text x="720" y="50" class="combo tap">PgUp</text>
-</g>
-<g class="combo combopos-5">
-<rect rx="4" ry="4" x="702" y="112" width="36" height="36" class="combo"/>
-<text x="720" y="130" class="combo tap">PgDn</text>
-</g>
-<g class="combo combopos-6">
-<rect rx="4" ry="4" x="782" y="32" width="36" height="36" class="combo"/>
-<text x="800" y="50" class="combo tap">Sft+9</text>
-</g>
-<g class="combo combopos-7">
-<rect rx="4" ry="4" x="782" y="112" width="36" height="36" class="combo"/>
-<text x="800" y="130" class="combo tap">Sft+0</text>
-</g>
-<g class="combo combopos-8">
-<rect rx="4" ry="4" x="782" y="192" width="36" height="36" class="combo"/>
-<a href="#num">
-<text x="800" y="210" class="combo tap layer-activator">num</text>
-</a></g>
 </g>
 </g>
 <g transform="translate(0, 393)" class="layer-nav">
@@ -754,39 +727,12 @@ path.combo {
 <rect rx="4" ry="4" x="62" y="52" width="36" height="36" class="combo"/>
 <use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="67" y="57" height="26" width="26.0" class="combo tap glyph mdi:keyboard-esc"/>
 </g>
-<g class="combo backspace combopos-1">
-<rect rx="4" ry="4" x="862" y="52" width="36" height="36" class="combo backspace"/>
-<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="867" y="57" height="26" width="26.0" class="combo backspace tap glyph mdi:backspace"/>
+<g class="combo combopos-1">
+<rect rx="4" ry="4" x="862" y="52" width="36" height="36" class="combo"/>
+<a href="#nav">
+<text x="880" y="70" class="combo tap layer-activator">nav</text>
+</a><text x="880" y="84" class="combo hold"><tspan style="font-size: 83%">toggle</tspan></text>
 </g>
-<g class="combo combopos-2">
-<rect rx="4" ry="4" x="862" y="212" width="36" height="36" class="combo"/>
-<use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="867" y="217" height="26" width="26.0" class="combo tap glyph mdi:keyboard-tab"/>
-</g>
-<g class="combo enter combopos-3">
-<rect rx="4" ry="4" x="862" y="132" width="36" height="36" class="combo enter"/>
-<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="867" y="137" height="26" width="26.0" class="combo enter tap glyph mdi:keyboard-return"/>
-</g>
-<g class="combo combopos-4">
-<rect rx="4" ry="4" x="702" y="32" width="36" height="36" class="combo"/>
-<text x="720" y="50" class="combo tap">PgUp</text>
-</g>
-<g class="combo combopos-5">
-<rect rx="4" ry="4" x="702" y="112" width="36" height="36" class="combo"/>
-<text x="720" y="130" class="combo tap">PgDn</text>
-</g>
-<g class="combo combopos-6">
-<rect rx="4" ry="4" x="782" y="32" width="36" height="36" class="combo"/>
-<text x="800" y="50" class="combo tap">Sft+9</text>
-</g>
-<g class="combo combopos-7">
-<rect rx="4" ry="4" x="782" y="112" width="36" height="36" class="combo"/>
-<text x="800" y="130" class="combo tap">Sft+0</text>
-</g>
-<g class="combo combopos-8">
-<rect rx="4" ry="4" x="782" y="192" width="36" height="36" class="combo"/>
-<a href="#num">
-<text x="800" y="210" class="combo tap layer-activator">num</text>
-</a></g>
 </g>
 </g>
 <g transform="translate(0, 786)" class="layer-other">
@@ -954,39 +900,12 @@ path.combo {
 <rect rx="4" ry="4" x="62" y="52" width="36" height="36" class="combo"/>
 <use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="67" y="57" height="26" width="26.0" class="combo tap glyph mdi:keyboard-esc"/>
 </g>
-<g class="combo backspace combopos-1">
-<rect rx="4" ry="4" x="862" y="52" width="36" height="36" class="combo backspace"/>
-<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="867" y="57" height="26" width="26.0" class="combo backspace tap glyph mdi:backspace"/>
+<g class="combo combopos-1">
+<rect rx="4" ry="4" x="862" y="52" width="36" height="36" class="combo"/>
+<a href="#nav">
+<text x="880" y="70" class="combo tap layer-activator">nav</text>
+</a><text x="880" y="84" class="combo hold"><tspan style="font-size: 83%">toggle</tspan></text>
 </g>
-<g class="combo combopos-2">
-<rect rx="4" ry="4" x="862" y="212" width="36" height="36" class="combo"/>
-<use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="867" y="217" height="26" width="26.0" class="combo tap glyph mdi:keyboard-tab"/>
-</g>
-<g class="combo enter combopos-3">
-<rect rx="4" ry="4" x="862" y="132" width="36" height="36" class="combo enter"/>
-<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="867" y="137" height="26" width="26.0" class="combo enter tap glyph mdi:keyboard-return"/>
-</g>
-<g class="combo combopos-4">
-<rect rx="4" ry="4" x="702" y="32" width="36" height="36" class="combo"/>
-<text x="720" y="50" class="combo tap">PgUp</text>
-</g>
-<g class="combo combopos-5">
-<rect rx="4" ry="4" x="702" y="112" width="36" height="36" class="combo"/>
-<text x="720" y="130" class="combo tap">PgDn</text>
-</g>
-<g class="combo combopos-6">
-<rect rx="4" ry="4" x="782" y="32" width="36" height="36" class="combo"/>
-<text x="800" y="50" class="combo tap">Sft+9</text>
-</g>
-<g class="combo combopos-7">
-<rect rx="4" ry="4" x="782" y="112" width="36" height="36" class="combo"/>
-<text x="800" y="130" class="combo tap">Sft+0</text>
-</g>
-<g class="combo combopos-8">
-<rect rx="4" ry="4" x="782" y="192" width="36" height="36" class="combo"/>
-<a href="#num">
-<text x="800" y="210" class="combo tap layer-activator">num</text>
-</a></g>
 </g>
 </g>
 <g transform="translate(0, 1179)" class="layer-6">
@@ -1155,39 +1074,12 @@ path.combo {
 <rect rx="4" ry="4" x="62" y="52" width="36" height="36" class="combo"/>
 <use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="67" y="57" height="26" width="26.0" class="combo tap glyph mdi:keyboard-esc"/>
 </g>
-<g class="combo backspace combopos-1">
-<rect rx="4" ry="4" x="862" y="52" width="36" height="36" class="combo backspace"/>
-<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="867" y="57" height="26" width="26.0" class="combo backspace tap glyph mdi:backspace"/>
+<g class="combo combopos-1">
+<rect rx="4" ry="4" x="862" y="52" width="36" height="36" class="combo"/>
+<a href="#nav">
+<text x="880" y="70" class="combo tap layer-activator">nav</text>
+</a><text x="880" y="84" class="combo hold"><tspan style="font-size: 83%">toggle</tspan></text>
 </g>
-<g class="combo combopos-2">
-<rect rx="4" ry="4" x="862" y="212" width="36" height="36" class="combo"/>
-<use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="867" y="217" height="26" width="26.0" class="combo tap glyph mdi:keyboard-tab"/>
-</g>
-<g class="combo enter combopos-3">
-<rect rx="4" ry="4" x="862" y="132" width="36" height="36" class="combo enter"/>
-<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="867" y="137" height="26" width="26.0" class="combo enter tap glyph mdi:keyboard-return"/>
-</g>
-<g class="combo combopos-4">
-<rect rx="4" ry="4" x="702" y="32" width="36" height="36" class="combo"/>
-<text x="720" y="50" class="combo tap">PgUp</text>
-</g>
-<g class="combo combopos-5">
-<rect rx="4" ry="4" x="702" y="112" width="36" height="36" class="combo"/>
-<text x="720" y="130" class="combo tap">PgDn</text>
-</g>
-<g class="combo combopos-6">
-<rect rx="4" ry="4" x="782" y="32" width="36" height="36" class="combo"/>
-<text x="800" y="50" class="combo tap">Sft+9</text>
-</g>
-<g class="combo combopos-7">
-<rect rx="4" ry="4" x="782" y="112" width="36" height="36" class="combo"/>
-<text x="800" y="130" class="combo tap">Sft+0</text>
-</g>
-<g class="combo combopos-8">
-<rect rx="4" ry="4" x="782" y="192" width="36" height="36" class="combo"/>
-<a href="#num">
-<text x="800" y="210" class="combo tap layer-activator">num</text>
-</a></g>
 </g>
 </g>
 <g transform="translate(0, 1572)" class="layer-5">
@@ -1333,39 +1225,12 @@ path.combo {
 <rect rx="4" ry="4" x="62" y="52" width="36" height="36" class="combo"/>
 <use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="67" y="57" height="26" width="26.0" class="combo tap glyph mdi:keyboard-esc"/>
 </g>
-<g class="combo backspace combopos-1">
-<rect rx="4" ry="4" x="862" y="52" width="36" height="36" class="combo backspace"/>
-<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="867" y="57" height="26" width="26.0" class="combo backspace tap glyph mdi:backspace"/>
+<g class="combo combopos-1">
+<rect rx="4" ry="4" x="862" y="52" width="36" height="36" class="combo"/>
+<a href="#nav">
+<text x="880" y="70" class="combo tap layer-activator">nav</text>
+</a><text x="880" y="84" class="combo hold"><tspan style="font-size: 83%">toggle</tspan></text>
 </g>
-<g class="combo combopos-2">
-<rect rx="4" ry="4" x="862" y="212" width="36" height="36" class="combo"/>
-<use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="867" y="217" height="26" width="26.0" class="combo tap glyph mdi:keyboard-tab"/>
-</g>
-<g class="combo enter combopos-3">
-<rect rx="4" ry="4" x="862" y="132" width="36" height="36" class="combo enter"/>
-<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="867" y="137" height="26" width="26.0" class="combo enter tap glyph mdi:keyboard-return"/>
-</g>
-<g class="combo combopos-4">
-<rect rx="4" ry="4" x="702" y="32" width="36" height="36" class="combo"/>
-<text x="720" y="50" class="combo tap">PgUp</text>
-</g>
-<g class="combo combopos-5">
-<rect rx="4" ry="4" x="702" y="112" width="36" height="36" class="combo"/>
-<text x="720" y="130" class="combo tap">PgDn</text>
-</g>
-<g class="combo combopos-6">
-<rect rx="4" ry="4" x="782" y="32" width="36" height="36" class="combo"/>
-<text x="800" y="50" class="combo tap">Sft+9</text>
-</g>
-<g class="combo combopos-7">
-<rect rx="4" ry="4" x="782" y="112" width="36" height="36" class="combo"/>
-<text x="800" y="130" class="combo tap">Sft+0</text>
-</g>
-<g class="combo combopos-8">
-<rect rx="4" ry="4" x="782" y="192" width="36" height="36" class="combo"/>
-<a href="#num">
-<text x="800" y="210" class="combo tap layer-activator">num</text>
-</a></g>
 </g>
 </g>
 <g transform="translate(0, 1965)" class="layer-num">
@@ -1498,11 +1363,13 @@ path.combo {
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-13" y="-13" height="26" width="26.0" class="key trans tap glyph mdi:transfer"/>
 </g>
-<g transform="translate(760, 200)" class="key held keypos-27">
-<rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key held"/>
+<g transform="translate(760, 200)" class="key trans keypos-27">
+<rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-13" y="-13" height="26" width="26.0" class="key trans tap glyph mdi:transfer"/>
 </g>
-<g transform="translate(840, 220)" class="key held keypos-28">
-<rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key held"/>
+<g transform="translate(840, 220)" class="key trans keypos-28">
+<rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-13" y="-13" height="26" width="26.0" class="key trans tap glyph mdi:transfer"/>
 </g>
 <g transform="translate(920, 240)" class="key trans keypos-29">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
@@ -1528,39 +1395,12 @@ path.combo {
 <rect rx="4" ry="4" x="62" y="52" width="36" height="36" class="combo"/>
 <use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="67" y="57" height="26" width="26.0" class="combo tap glyph mdi:keyboard-esc"/>
 </g>
-<g class="combo backspace combopos-1">
-<rect rx="4" ry="4" x="862" y="52" width="36" height="36" class="combo backspace"/>
-<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="867" y="57" height="26" width="26.0" class="combo backspace tap glyph mdi:backspace"/>
+<g class="combo combopos-1">
+<rect rx="4" ry="4" x="862" y="52" width="36" height="36" class="combo"/>
+<a href="#nav">
+<text x="880" y="70" class="combo tap layer-activator">nav</text>
+</a><text x="880" y="84" class="combo hold"><tspan style="font-size: 83%">toggle</tspan></text>
 </g>
-<g class="combo combopos-2">
-<rect rx="4" ry="4" x="862" y="212" width="36" height="36" class="combo"/>
-<use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="867" y="217" height="26" width="26.0" class="combo tap glyph mdi:keyboard-tab"/>
-</g>
-<g class="combo enter combopos-3">
-<rect rx="4" ry="4" x="862" y="132" width="36" height="36" class="combo enter"/>
-<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="867" y="137" height="26" width="26.0" class="combo enter tap glyph mdi:keyboard-return"/>
-</g>
-<g class="combo combopos-4">
-<rect rx="4" ry="4" x="702" y="32" width="36" height="36" class="combo"/>
-<text x="720" y="50" class="combo tap">PgUp</text>
-</g>
-<g class="combo combopos-5">
-<rect rx="4" ry="4" x="702" y="112" width="36" height="36" class="combo"/>
-<text x="720" y="130" class="combo tap">PgDn</text>
-</g>
-<g class="combo combopos-6">
-<rect rx="4" ry="4" x="782" y="32" width="36" height="36" class="combo"/>
-<text x="800" y="50" class="combo tap">Sft+9</text>
-</g>
-<g class="combo combopos-7">
-<rect rx="4" ry="4" x="782" y="112" width="36" height="36" class="combo"/>
-<text x="800" y="130" class="combo tap">Sft+0</text>
-</g>
-<g class="combo combopos-8">
-<rect rx="4" ry="4" x="782" y="192" width="36" height="36" class="combo"/>
-<a href="#num">
-<text x="800" y="210" class="combo tap layer-activator">num</text>
-</a></g>
 </g>
 </g>
 <g transform="translate(0, 2358)" class="layer-7">
@@ -1727,39 +1567,12 @@ path.combo {
 <rect rx="4" ry="4" x="62" y="52" width="36" height="36" class="combo"/>
 <use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="67" y="57" height="26" width="26.0" class="combo tap glyph mdi:keyboard-esc"/>
 </g>
-<g class="combo backspace combopos-1">
-<rect rx="4" ry="4" x="862" y="52" width="36" height="36" class="combo backspace"/>
-<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="867" y="57" height="26" width="26.0" class="combo backspace tap glyph mdi:backspace"/>
+<g class="combo combopos-1">
+<rect rx="4" ry="4" x="862" y="52" width="36" height="36" class="combo"/>
+<a href="#nav">
+<text x="880" y="70" class="combo tap layer-activator">nav</text>
+</a><text x="880" y="84" class="combo hold"><tspan style="font-size: 83%">toggle</tspan></text>
 </g>
-<g class="combo combopos-2">
-<rect rx="4" ry="4" x="862" y="212" width="36" height="36" class="combo"/>
-<use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="867" y="217" height="26" width="26.0" class="combo tap glyph mdi:keyboard-tab"/>
-</g>
-<g class="combo enter combopos-3">
-<rect rx="4" ry="4" x="862" y="132" width="36" height="36" class="combo enter"/>
-<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="867" y="137" height="26" width="26.0" class="combo enter tap glyph mdi:keyboard-return"/>
-</g>
-<g class="combo combopos-4">
-<rect rx="4" ry="4" x="702" y="32" width="36" height="36" class="combo"/>
-<text x="720" y="50" class="combo tap">PgUp</text>
-</g>
-<g class="combo combopos-5">
-<rect rx="4" ry="4" x="702" y="112" width="36" height="36" class="combo"/>
-<text x="720" y="130" class="combo tap">PgDn</text>
-</g>
-<g class="combo combopos-6">
-<rect rx="4" ry="4" x="782" y="32" width="36" height="36" class="combo"/>
-<text x="800" y="50" class="combo tap">Sft+9</text>
-</g>
-<g class="combo combopos-7">
-<rect rx="4" ry="4" x="782" y="112" width="36" height="36" class="combo"/>
-<text x="800" y="130" class="combo tap">Sft+0</text>
-</g>
-<g class="combo combopos-8">
-<rect rx="4" ry="4" x="782" y="192" width="36" height="36" class="combo"/>
-<a href="#num">
-<text x="800" y="210" class="combo tap layer-activator">num</text>
-</a></g>
 </g>
 </g>
 </svg>
