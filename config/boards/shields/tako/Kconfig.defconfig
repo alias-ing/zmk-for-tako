@@ -6,9 +6,6 @@ config ZMK_KEYBOARD_NAME
 config ZMK_SPLIT_ROLE_CENTRAL
   default y
 
-config ZMK_HID_REPORT_TYPE_NKRO
-   default y
-
 endif
 
 if SHIELD_TAKO_LEFT || SHIELD_TAKO_RIGHT
