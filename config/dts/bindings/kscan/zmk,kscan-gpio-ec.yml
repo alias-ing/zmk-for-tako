@@ -28,7 +28,7 @@ properties:
     required: true
   poll-period-ms:
     type: int
-    default: 2
+    default: 3
     description: Time between reads in milliseconds.
   idle-poll-period-ms:
     type: int
