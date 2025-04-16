@@ -56,10 +56,10 @@ layers:
   - {t: ']', s: '}'}
   - {t: ;, s: ':'}
   - .
-  - {t: '`', s: '~'}
-  - $$mdi:volume-off$$
-  - '&key'
-  - $$mdi:volume-low$$
+  - $$mdi:apple-keyboard-shift$$
+  - Z
+  - X
+  - C
   - $$mdi:volume-high$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-up-bold$$
